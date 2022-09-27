@@ -268,6 +268,10 @@ ___  _  _ ___ ___ ____ _  _
     cursor: pointer;
     height: 36px;
 }
+.button:hover {
+  background-color: var(--colorViolet-main);
+  color: var(--colorWhite);
+}
 
 
 
@@ -344,6 +348,7 @@ _ _  _ ___  ____ _  _         ___ ____ ____ ____ _    ____
     height: 100%;
     border-radius: 10px;
     color: var(--colorGray-dark);
+    cursor: pointer;
 }
 
 .toggle__active {
